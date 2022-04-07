@@ -1,0 +1,61 @@
+* {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+#note {
+    font-style: italic;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+a:link {
+    color: darkorange;
+}
+
+a:visited {
+    color: darkred;
+}
+
+a:hover {
+    background: #f6fdff;
+}
+
+ul {
+    list-style: none;
+    padding: 0 0;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 1000;
+    text-decoration: underline 9% lightgray;
+}
+
+li > a {
+    font-size: 36px;
+    padding: 5px;
+}
+
+ol {
+    list-style: none;
+}
+
+ol > li {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.desc {
+    font-style: italic;
+    font-size: 12px;
+}
+
+img {
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px lightgray;
+}
